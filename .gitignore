@@ -2,3 +2,4 @@ tags
 *.o
 src/detector
 cosmic_ray_detector
+date.log

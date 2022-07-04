@@ -8,6 +8,8 @@ all: $(BIN)
 
 $(BIN): $(OBJ)
 
+check: all
+	./tests/test.sh
 
 clean:
-	$(RM) $(OBJ) $(BIN) $(TARGET)
+	$(RM) $(OBJ) $(BIN) $(TARGET) date.log
