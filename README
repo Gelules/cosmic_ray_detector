@@ -1,0 +1,14 @@
+This project is a very serious project about detecting cosmic rays coming from
+outer space !
+
+Usage:
+* make: Build the program and place the binary `cosmic_ray_detector' inside the
+  root of the repo.
+
+* make check: Launch the testsuite.
+
+* make clean: Clean the repo.
+
+Information:
+The program uses a very complicated algorithm to see if at least a single bit
+from a simple variable is flipped.
